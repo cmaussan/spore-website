@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Lobster;
+    src: url(ext/Lobster_1.4.otf);
+}
+
+@font-face {
+    font-family: Cassannet;
+    src: url(ext/Cassannet.otf);
+}
+
+@font-face {
+    font-family: CassannetBold;
+    src: url(ext/Cassannet_Bold.otf);
+}
+
+body {
+    padding-top: 50px;
+}
+
+.hero-unit h1 {
+    font-family: CassannetBold;    
+}

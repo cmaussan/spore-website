@@ -1,0 +1,17 @@
+!!!
+%html
+  %head
+    %title 
+      = "Hello #{@item[:title]}"
+    %link{ :href => "assets/css/bootstrap.css", :rel => "stylesheet", :type => "text/css" }
+    %link{ :href => "style.css", :rel => "stylesheet", :type => "text/css" }
+  %body 
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          .nav
+            %li.active
+              %a{ :href => "index.html "} 
+                = @item[:title]
+    .container
+      = yield
